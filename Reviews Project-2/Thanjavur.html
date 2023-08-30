@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Online bootstrap -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+<!-- style.css -->
+
+<!-- <style>
+    .know-more-btn {
+      background: linear-gradient(90deg,black,#2e3192 101.66%);
+      float: right;
+      padding: 3px 7px;
+      position: relative;
+      top: 50px;
+      margin-right: 40px;
+      border-radius: 5px;
+      text-align: center;
+      justify-content: center;
+      max-width: 130px;
+      color: #fff;
+    }
+  </style> -->
+  <style>
+
+  #image-container{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  #image-container:hover .image {
+    transform: scale(1.1);
+    filter: brightness(70%);
+  }
+  </style>
+
+</head>
+<body style="font-family: 'Philosopher', sans-serif; background: radial-gradient(white,#62ef62);">
+    <!-- navigation bar -->
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark  " style="background-color: #071952 !important;font-family: 'Philosopher', sans-serif;" id="navbar">
+    <div class="container-fluid">
+     <a href="https://thanjavur.nic.in/"><img style="width: 200px; height: 40px;" src="Screenshot 2023-08-25 192853.png" alt=""></a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active mx-lg-4" href="#navbar">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active mx-lg-4" href="#about-us">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active mx-lg-4" href="#Government Department">Government Department</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active mx-lg-4" href="#Tourist Places">Tourist Places</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active mx-lg-4" href="#footer">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="download2.jpg" alt="Big Temple" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="download3.jpg" alt="Kallanai" class="d-block" style="width:100%">
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- content -->
+<div class="container-fluid" >
+  <h1 style="color: #071952; text-align: center; margin-top: 50px;">About</h1>
+    <!-- about us -->
+    <div class="container-fluid mt-5 "  id="about-us">
+      <div class="row align-items-center" >
+        <div class="col text-center">
+          <p style="color: #071952; ">
+            Thanjavur District with its fertile  soil is one of the largest  paddy cultivation areas not only in Tamilnadu but also in South India.  Thanjavur district is also  called as  ‘The Rice Bowl of Tamil Nadu’ as the main industry is agriculture. The Cauvery River is the main source of water in  the district. The district is a  historical place and was  ruled by Cholas, Nayak, Marathas and the British. Thanjavur has many historic buildings and monuments such as  the Grand Anaicut, Big Temple and Sarofoji Mahal Palace and Saraswathi Mahal Library.<br><br>The Thanjavur Maharaja Serfoji’s Saraswathi Mahal Library is one among a few libraries in the world with texts of the medieval period. The library has a rare  and valuable collection of manuscripts, books, maps and paintings on all aspects of Art, Culture and Literature. The Encyclopedia Britannica, in its survey of the Libraries of the world, describes it as “ the most remarkable Library in India”. <br><br>The Brihadeeshwarar Temple is an architectural marvel! It is said that the shadow of the building does not fall on the ground! The temple is a UNESCO World Heritage Site. The stunning temple was built by Rajaraja Cholan around  1000 AD.  A visit to the district is not complete without visiting the “Big Temple”. The Tamil University was established in Thanjavur to provide higher research in the Tamil language and advanced study in allied branches such as linguistics, translation, lexicography, music, drama and manuscriptology. <br><br>The district is known for the “Saraswathi Veena” Thanjavur art plates, and the Thanjavur “Thalayatti Bommai”  dolls of rolling figures made of clay and painted in bright colors. More than two third of the district’s population live in rural areas.</p>
+            
+             
+        </div>
+        <div class="col-lg text-center">
+          <a href="https://goo.gl/maps/AC1DavqMvzCPGJjh9" target="_blank"><img  id="centeri" src="download5.jpg" class="img-fluid zoom-effect" alt="Image 2" width="80%" height="350px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Governments -->
+  <div class="container" id="Government Department" style="margin-top:50px;">
+    <div class="row">
+        <h1 style="text-align: center; color:#071952; margin-bottom: 50px;">Government Department</h1>
+        <div class="col-3" style="margin:auto;">
+            <a href="https://thanjavur.nic.in/" target="_blank" style="text-decoration:none;">
+        <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+            <img src="download7.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+          <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Collector Office</b></p></a>
+        </div>
+        </div>
+        <div class="col-3" style="margin:auto;">
+            <a href="https://thanjavurcorporation.org/" target="_blank" style="text-decoration:none;">
+        <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+            <img src="download8.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+          <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Muncipal Corporation Office</b></p></a>
+        </div>
+        </div>
+        <div class="col-3" style="margin:auto;">
+            <a href="https://thanjavur.nic.in/agriculture-2/" target="_blank" style="text-decoration:none;">
+        <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+            <img src="download9.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+          <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Agriculture Office</b></p></a>
+        </div>
+        </div>
+        <div class="col-3" style="margin:auto;">
+            <a href="https://thanjavur.nic.in/revenue-department/" target="_blank" style="text-decoration:none;">
+        <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+            <img src="download10.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+          <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Revenue Office</b></p></a>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--Next Table Governments -->
+<div class="container"style="margin-top:50px;">
+<div class="row">
+    <div class="col-3" style="margin:auto;">
+        <a href="https://thanjavur.nic.in/education/" target="_blank" style="text-decoration:none;">
+    <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+        <img src="download11.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+      <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Education Office</b></p></a>
+    </div>
+    </div>
+    <div class="col-3" style="margin:auto;">
+        <a href="https://thanjavur.nic.in/agriculture/" target="_blank" style="text-decoration:none;">
+    <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+        <img src="download12.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+      <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>Agriculture Engineering Office</b></p></a>
+    </div>
+    </div>
+    <div class="col-3" style="margin:auto;">
+        <a href="https://thanjavur.nic.in/ddawo/" target="_blank" style="text-decoration:none;">
+    <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+        <img src="download14.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+      <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>
+        DDAWO Office</b></p></a>
+    </div>
+    </div>
+    <div class="col-3" style="margin:auto;">
+        <a href="https://thanjavur.nic.in/district-supply-and-consumer-protection-office/" target="_blank" style="text-decoration:none;">
+    <div class="division" style="height:250px; background-color:white; border-radius:10px; padding:2px;">
+        <img src="download15.jpg" alt="" style="width: 100%; height:200px; border-radius:10px;">
+      <p style="padding-left:15px; margin-top:-10px; font-size:3cqmin; color:black; padding-top:20px; text-align:center;"><b>District Supply Office</b></p></a>
+    </div>
+    </div>
+</div>
+</div>
+
+<!-- content -->
+<div class="container-fluid" >
+  <h1 style="text-align:center; margin-top: 50px; color: #071952;">Medical College</h1>
+  <!-- about us -->
+  <div class="container-fluid mt-5 "  id="about-us">
+    <div class="row align-items-center" >
+      <div class="col text-center">
+        <img src="download16.jpg" alt="Medical College" width="80%" height="350px">
+          
+           
+      </div>
+      <div class="col-lg text-center">
+        <p style="color: #071952;">
+          The foundation stone for the medical college building was laid in 1958 by Dr. Rajendra Prasad, the then-president of India. It was first intended to be started at the Raja Mirasdars Hospital premises. Later at the behest of Kamarajar, the Chief Minister of Madras and as requested by M.L.A. Parisutha Nadar, it was shifted to the present Medical College premises. The land was gifted earlier by Yagappa Nadar h/o Arulanda Ammal family through the Rotary Club of Thanjavur. The deposit money for the college was arranged from the Tanjore District Board Railway Cess Fund.<br><br>Started with 650 beds in the 1960s, the college has emerged into an institution of higher learning in medicine and research with a bed strength of 3000. Thanjavur Medical College Hospital is a referral teaching hospital. Proposals for starting a trauma care hospital and cancer hospital are pending with the government.
+        </p>
+        <div>
+        <a class="flex items-center gap-2 md:mt-1 mt-0 mb-2 text-sm md:text-[15px] font-normal know-more-btn" href="https://en.wikipedia.org/wiki/Thanjavur_Medical_College" target="_blank">Read More<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class=" md:text-[25px] hover:text-blue-700" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M210.7 147.6c7.5-7.5 19.8-7.5 27.3 0l95.4 95.7c7.3 7.3 7.5 19.1.6 26.6l-94 94.3c-3.8 3.8-8.7 5.7-13.7 5.7-4.9 0-9.9-1.9-13.6-5.6-7.5-7.5-7.6-19.7 0-27.3l79.9-81.1-81.9-81.1c-7.6-7.4-7.6-19.6 0-27.2z"></path><path d="M48 256c0 114.9 93.1 208 208 208s208-93.1 208-208S370.9 48 256 48 48 141.1 48 256zm32 0c0-47 18.3-91.2 51.6-124.4C164.8 98.3 209 80 256 80s91.2 18.3 124.4 51.6C413.7 164.8 432 209 432 256s-18.3 91.2-51.6 124.4C347.2 413.7 303 432 256 432s-91.2-18.3-124.4-51.6C98.3 347.2 80 303 80 256z"></path></svg></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Carousel -->
+<h1 id="Tourist Places" style="text-align: center; color:#071952; margin-top:50px;">Tourist Places</h1>
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators/dots -->
+  <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></button>
+    
+  </div> -->
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container" style="margin-top:50px;">
+        <div class="row">
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download17.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Thanjavur Bangaru Kamakshi Amman Temple</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download18.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Poondi Madha Basilica</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download19.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Sivaganga Park</h1>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container" style="margin-top:50px;">
+        <div class="row">
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download20.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Brihadeeshwarar Temple</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download21.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Rajarajan Manimandapam</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download22.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Palace</h1>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container" style="margin-top:50px;">
+        <div class="row">
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download23.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Kallanai Dam</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download24.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Punnainallur Mariamman Koil</h1>
+            </div>
+          </div>
+          <div class="col-3" style="margin:auto;">
+            <div class="division" style="height:300px;background-color:white; border-radius:3px; padding:2px;">
+              <img src="download25.jpg" alt="" class="d-block" style="width:100%; height:200px; border-radius:3px;">
+              <h1 style="padding-top:20px; text-align:center; margin-top: -10px; font-size:3cqmin; padding:30px;">Saraswathi Mahal Library</h1>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- footer -->
+<div class=" p-4 bg-dark text-white text-center" style="background-color: #071952  !important; margin-top: 20px; " id="footer">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-sm-4">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-4 align-items-center">
+              <p>Mobile App</p>
+            </div>
+            <div class="col-sm-4">
+              <div class="row align-items-center justify-content-center">
+                <div class="col"><a href="https://play.google.com/store/apps/details?id=com.cma_mobile.beta&hl=en_GB"><img src="download26.jpg" alt="" width="100px" height="50px"></a></div>
+              </div>
+              </div>
+          </div>
+  
+        </div>
+        <div class="col-sm-4">
+          
+            <div class="row align-items-center justify-content-center">
+              <p><i class="fa fa-phone"></i>
+              <p>Contact: 04362-230121</p></p>
+            </div>
+            <div class="row align-items-center justify-content-center">
+              <div class="col-sm"><p>&copy;  Thanjavur District , Developed And Hosted By National Informatics Centre,
+                Ministry Of Electronics & Information Technology, Government Of India</p></div>
+          </div>
+        </div>
+      <div class="col-sm-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col">
+          <p>Locate us</p>
+          </div>
+          <div class="col justify-content-center ">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125432.31724856838!2d79.04904705732392!3d10.752977695799268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab89cea453039%3A0xe113da9b1f632be6!2sThanjavur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1692961999442!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  </div>
+  <script src="fw/bootstrap.min.css"></script>
+  <script src="fw/jquery.min.js"></script>
+
+</body>
+</html>
